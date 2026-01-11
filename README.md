@@ -1,70 +1,15 @@
-# Getting Started with Create React App
+⚡ Crypto Converter (React)
+React와 Coinpaprika API를 활용하여 구현한 실시간 암호화폐 환율 계산기 프로젝트입니다. 
+실시간으로 변동되는 100위권 코인의 시세를 반영하며, 달러(USD) 입력 시 보유 가능한 코인 수량을 즉시 계산해주는 기능을 제공합니다. 
+힙하고 현대적인 UI와 사용자 경험을 고려한 로딩 처리를 적용했습니다.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🛠 Tech Stack
+React Hooks (useState, useEffect): API 데이터 fetch 관리 및 실시간 계산 로직 구현
+API Interface: Coinpaprika API (JSON 데이터 파싱)
 
-## Available Scripts
+📷 Preview
+<img width="1920" height="927" alt="스크린샷 2026-01-12 오전 5 36 24" src="https://github.com/user-attachments/assets/fcc87499-1d89-4803-93a1-cd64afd1bea6" />
+<img width="1920" height="927" alt="스크린샷 2026-01-12 오전 5 36 33" src="https://github.com/user-attachments/assets/a759ebda-91b5-4469-a506-8577a1544cf5" />
+<img width="1920" height="927" alt="스크린샷 2026-01-12 오전 5 36 39" src="https://github.com/user-attachments/assets/48b44d9c-96a7-48d5-b394-c637c974d24e" />
+<img width="1920" height="927" alt="스크린샷 2026-01-12 오전 5 36 48" src="https://github.com/user-attachments/assets/89fea89c-8204-4c22-b5a0-0686b4a967a0" />
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
